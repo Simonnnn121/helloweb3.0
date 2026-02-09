@@ -109,16 +109,22 @@ export default {
 
         <div class="meme-grid">
             <div class="meme-card">
-                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzJ6dGphZnZ5cWxzdzBnc3JreWJ6cHBpZnd6Z3ZxeWN4eG55dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKSjPqcKGRZaOE8/giphy.gif" alt="Thinking Robot">
-                <p>正在思考宇宙的意义...</p>
+                <video autoplay loop muted playsinline style="width: 100%; border-radius: 5px;">
+                    <source src="/assets/meme_1.mp4" type="video/mp4">
+                </video>
+                <p>帮盘来敲代码的日常（猫猫努力中）</p>
             </div>
             <div class="meme-card">
-                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHUxaW51Z3d6Z3ZxeWN4eG55dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C23cMUqoZklJC/giphy.gif" alt="Cat typing">
-                <p>帮盘来敲代码的日常</p>
+                <video autoplay loop muted playsinline style="width: 100%; border-radius: 5px;">
+                    <source src="/assets/meme_2.mp4" type="video/mp4">
+                </video>
+                <p>当服务器报错时：I'm fine... 🐶</p>
             </div>
             <div class="meme-card">
-                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzJ6dGphZnZ5cWxzdzBnc3JreWJ6cHBpZnd6Z3ZxeWN4eG55dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LSeP7t31P0w0/giphy.gif" alt="This is fine">
-                <p>当服务器报错时：Everything is fine.</p>
+                <video autoplay loop muted playsinline style="width: 100%; border-radius: 5px;">
+                    <source src="/assets/meme_3.mp4" type="video/mp4">
+                </video>
+                <p>正在思考宇宙的意义（机器人模式）</p>
             </div>
         </div>
 
