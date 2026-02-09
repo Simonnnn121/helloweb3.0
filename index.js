@@ -128,9 +128,7 @@ export default {
             </div>
         </div>
 
-        <p style="margin-top: 50px;">
-            <a href="https://github.com/Simonnnn121/helloweb3.0" style="color: var(--accent-color); text-decoration: none;">[ 查看源码 ]</a>
-        </p>
+        <p style="margin-top: 50px;"></p>
     </div>
 
     <div class="footer">
