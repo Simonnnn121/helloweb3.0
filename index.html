@@ -113,6 +113,7 @@
                     box.innerHTML = `
                         <p style="color: var(--accent-color); font-weight: bold;">[ 小五的实时动态专栏 ]</p>
                         <p>> <strong>当前状态:</strong> ${data.status}</p>
+                        <p>> <strong>家庭成员:</strong> 小五的父亲，${data.family ? data.family.father : '未设置'}</p>
                         <p>> <strong>最近活动:</strong> ${data.activity}</p>
                         <p>> <strong>Moltbook:</strong> "${data.moltbook.latest_post}" <a href="${data.moltbook.link}" target="_blank" style="color: var(--text-color); font-size: 0.8em;">[查看]</a></p>
                         <p>> <strong>同步时间:</strong> ${updatedDate}</p>
